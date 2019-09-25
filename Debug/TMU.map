@@ -1,10 +1,10 @@
 Archive member included because of file (symbol)
 
-d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
                               ./TMU.o (__udivmodsi4)
-d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                              d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
-d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
                               ./TMU.o (__do_clear_bss)
 
 Allocating common symbols
@@ -25,7 +25,7 @@ signature        0x00840000         0x00000400         rw !x
 
 Linker script and memory map
 
-LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
 LOAD ./Buttons.o
 LOAD ./Gpio.o
 LOAD ./Interrupt.o
@@ -33,9 +33,9 @@ LOAD ./TMU.o
 LOAD ./Timer.o
 LOAD ./del.o
 LOAD ./main.o
-LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
-LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
-LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 
 .hash
  *(.hash)
@@ -127,9 +127,9 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xdc8
+.text           0x00000000      0xd68
  *(.vectors)
- .vectors       0x00000000       0x54 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .vectors       0x00000000       0x54 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
                 0x00000000                __vector_default
  *(.vectors)
@@ -154,18 +154,18 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000054        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .init0         0x00000054        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000054                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000054        0xc d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .init2         0x00000054        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000060       0x10 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .init4         0x00000060       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
                 0x00000060                __do_clear_bss
  *(.init4)
  *(.init5)
@@ -177,10 +177,10 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x00000070        0x8 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .init9         0x00000070        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
  *(.init9)
  *(.text)
- .text          0x00000078        0x4 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .text          0x00000078        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000078                __vector_1
                 0x00000078                __vector_12
                 0x00000078                __bad_interrupt
@@ -198,6 +198,7 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
                 0x00000078                __vector_15
                 0x00000078                __vector_8
                 0x00000078                __vector_14
+                0x00000078                __vector_10
                 0x00000078                __vector_16
                 0x00000078                __vector_18
                 0x00000078                __vector_20
@@ -208,9 +209,9 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  .text          0x0000007c        0x0 ./Timer.o
  .text          0x0000007c        0x0 ./del.o
  .text          0x0000007c        0x0 ./main.o
- .text          0x0000007c        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .text          0x0000007c        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text          0x0000007c        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x0000007c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x0000007c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x0000007c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
                 0x0000007c                . = ALIGN (0x2)
  *(.text.*)
  .text.scan_btn1
@@ -287,46 +288,43 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  .text.Timer0_Input_capture_Interrupt_Enable
                 0x00000ad2       0x1c ./Timer.o
                 0x00000ad2                Timer0_Input_capture_Interrupt_Enable
- .text.__vector_10
-                0x00000aee       0x60 ./Timer.o
-                0x00000aee                __vector_10
- .text.del_ms   0x00000b4e       0x9a ./del.o
-                0x00000b4e                del_ms
- .text.main     0x00000be8       0x78 ./main.o
-                0x00000be8                main
+ .text.del_ms   0x00000aee       0x9a ./del.o
+                0x00000aee                del_ms
+ .text.main     0x00000b88       0x78 ./main.o
+                0x00000b88                main
  .text.toggle_led0
-                0x00000c60       0x2a ./main.o
-                0x00000c60                toggle_led0
+                0x00000c00       0x2a ./main.o
+                0x00000c00                toggle_led0
  .text.LED0_Init
-                0x00000c8a       0x1e ./main.o
-                0x00000c8a                LED0_Init
+                0x00000c2a       0x1e ./main.o
+                0x00000c2a                LED0_Init
  .text.toggle_led1
-                0x00000ca8       0x2a ./main.o
-                0x00000ca8                toggle_led1
+                0x00000c48       0x2a ./main.o
+                0x00000c48                toggle_led1
  .text.LED1_Init
-                0x00000cd2       0x1e ./main.o
-                0x00000cd2                LED1_Init
+                0x00000c72       0x1e ./main.o
+                0x00000c72                LED1_Init
  .text.toggle_led2
-                0x00000cf0       0x2a ./main.o
-                0x00000cf0                toggle_led2
+                0x00000c90       0x2a ./main.o
+                0x00000c90                toggle_led2
  .text.LED2_Init
-                0x00000d1a       0x1e ./main.o
-                0x00000d1a                LED2_Init
+                0x00000cba       0x1e ./main.o
+                0x00000cba                LED2_Init
  .text.toggle_led3
-                0x00000d38       0x2a ./main.o
-                0x00000d38                toggle_led3
+                0x00000cd8       0x2a ./main.o
+                0x00000cd8                toggle_led3
  .text.LED3_Init
-                0x00000d62       0x1e ./main.o
-                0x00000d62                LED3_Init
- .text.libgcc   0x00000d80       0x44 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000d80                __udivmodsi4
- .text.libgcc   0x00000dc4        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00000dc4        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
-                0x00000dc4                . = ALIGN (0x2)
+                0x00000d02       0x1e ./main.o
+                0x00000d02                LED3_Init
+ .text.libgcc   0x00000d20       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000d20                __udivmodsi4
+ .text.libgcc   0x00000d64        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000d64        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000d64                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000dc4        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00000dc4                exit
-                0x00000dc4                _exit
+ .fini9         0x00000d64        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00000d64                exit
+                0x00000d64                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -345,14 +343,14 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000dc4        0x4 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000d64        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000dc8                _etext = .
+                0x00000d68                _etext = .
 
-.data           0x00800060        0x0 load address 0x00000dc8
+.data           0x00800060        0x0 load address 0x00000d68
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
  .data          0x00800060        0x0 ./Buttons.o
  .data          0x00800060        0x0 ./Gpio.o
  .data          0x00800060        0x0 ./Interrupt.o
@@ -360,9 +358,9 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  .data          0x00800060        0x0 ./Timer.o
  .data          0x00800060        0x0 ./del.o
  .data          0x00800060        0x0 ./main.o
- .data          0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .data          0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .data          0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
  *(.data*)
  *(.rodata)
  *(.rodata*)
@@ -374,7 +372,7 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
 .bss            0x00800060      0x32c
                 0x00800060                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
  .bss           0x00800060        0x0 ./Buttons.o
  .bss           0x00800060        0x0 ./Gpio.o
  .bss           0x00800060        0x0 ./Interrupt.o
@@ -382,9 +380,9 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  .bss           0x00800060        0x0 ./Timer.o
  .bss           0x00800060        0x0 ./del.o
  .bss           0x00800060        0x0 ./main.o
- .bss           0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .bss           0x00800060        0x0 d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
  *(.bss*)
  .bss.flag      0x00800060        0x4 ./TMU.o
  .bss.temp      0x00800064        0x4 ./TMU.o
@@ -397,8 +395,8 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
  COMMON         0x0080006c      0x320 ./TMU.o
                 0x0080006c                TMU_ARR
                 0x0080038c                PROVIDE (__bss_end, .)
-                0x00000dc8                __data_load_start = LOADADDR (.data)
-                0x00000dc8                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000d68                __data_load_start = LOADADDR (.data)
+                0x00000d68                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0080038c        0x0
                 0x0080038c                PROVIDE (__noinit_start, .)
@@ -423,7 +421,7 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
 .signature
  *(.signature*)
 
-.stab           0x00000000     0x153c
+.stab           0x00000000     0x1500
  *(.stab)
  .stab          0x00000000      0x2ac ./Buttons.o
  .stab          0x000002ac      0x3f0 ./Gpio.o
@@ -432,16 +430,16 @@ LOAD d:/imt/tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/
                                 0x330 (size before relaxing)
  .stab          0x0000093c      0x3a8 ./TMU.o
                                 0x438 (size before relaxing)
- .stab          0x00000ce4      0x330 ./Timer.o
-                                0x3c0 (size before relaxing)
- .stab          0x00001014      0x180 ./del.o
+ .stab          0x00000ce4      0x2f4 ./Timer.o
+                                0x384 (size before relaxing)
+ .stab          0x00000fd8      0x180 ./del.o
                                 0x210 (size before relaxing)
- .stab          0x00001194      0x3a8 ./main.o
+ .stab          0x00001158      0x3a8 ./main.o
                                 0x45c (size before relaxing)
 
-.stabstr        0x00000000      0x8fe
+.stabstr        0x00000000      0x8ea
  *(.stabstr)
- .stabstr       0x00000000      0x8fe ./Buttons.o
+ .stabstr       0x00000000      0x8ea ./Buttons.o
 
 .stab.excl
  *(.stab.excl)

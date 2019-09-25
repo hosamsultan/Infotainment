@@ -35,20 +35,9 @@
 #define col3	23
 
 
-/*LCD PINS*/
 
-#define LCD_RS	1
-#define LCD_RW	2
-#define LCD_E	3
-#define LCD_D4	4
-#define LCD_D5	5
-#define LCD_D6	6
-#define LCD_D7	7
 
 ////////////////////////////////////////
-
-#define NULL (void*)(0)
-
 
 void DIO_WritePin(uint8 PinNum,uint8 PinValue);
 uint8 DIO_ReadPin(uint8 PinNum);

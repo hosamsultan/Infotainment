@@ -13,8 +13,8 @@
 #include "Gpio.h"
 #include "LIB/Bit_Math.h"
 #include "LIB/Standard_Types.h"
-#include "Registers.h"
 #include "LCD_Config.h"
+#include "Registers.h"
 //#include "data_types.h"
 
 /*Initilizing LCD*/

@@ -11,14 +11,12 @@
 
 volatile uint8 counter=0;
 
-static void(*CallBack2)(void)=NULL;
+ void(*Function_Ptr)(void);
 /*************************************************************/
 		/*timer0 initial*/
-void Timer0_init(void(*CallBack)(void))
+void Timer0_init(void)
 {
-    TCCR0 |= (1 << CS00); /*prescaler=64*/
-    TCCR0 |= (1 << CS01);
-    CallBack2=CallBack;
+
 
 }
 
@@ -33,6 +31,8 @@ void Timer0_Set_TCNT0(uint8 value)
 void Timer0_Set_OCR0(uint8 value)
 {
     OCR0 = value;
+    TCCR0 |= (1 << CS00); /*prescaler=64*/
+    TCCR0 |= (1 << CS01);
 }
 
 /*************************************************************/
@@ -61,15 +61,19 @@ void Timer0_Deinit(void)
 
 /*************************************************************/
 		/*timer0 Input_capture_Interrupt_Enable*/
-void Timer0_Input_capture_Interrupt_Enable(void)
+void Timer0_Interrupt_Enable(void)
 {
 	Set_Bit(TIMSK,OCIE0);
+}
+void SetCallBack(void(*CallFunction_Ptr)(void))
+{
+	Function_Ptr = CallFunction_Ptr;
 }
 /*****************************************************************/
 					/*ISR Compare match*/
 void __vector_10(void) __attribute__((signal,__INTR_ATTRS));
 void __vector_10(void)
 {
-	Timer0_Set_TCNT0(0);
-	CallBack2();
+	Function_Ptr();
 }
+

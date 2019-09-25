@@ -65,6 +65,7 @@ void Timer0_overflow_Interrupt_Disable(void);
 
 void Global_Interrupt_Disable(void);
 
+void Global_Interrupt_Enable(void);
 
 
 void Timer1_Input_capture_Interrupt_Enable(void);

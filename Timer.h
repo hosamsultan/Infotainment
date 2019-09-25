@@ -11,7 +11,6 @@
 #include "LIB/Standard_Types.h"
 #include "Registers.h"
 
-#define NULL (void*)(0)
 
 /************************************************/
           /*bits used in TCCR0*/
@@ -32,7 +31,7 @@
 
 #define __INTR_ATTRS used,externally_visible
 
-void Timer0_init(void(*CallBack)(void));
+void Timer0_init(void);
 
 void Timer0_Deinit(void);
 
@@ -42,8 +41,10 @@ void timer_delay(uint32 n);
 
 void Check1ms(void);
 
-void Timer0_Input_capture_Interrupt_Enable(void);
+void Timer0_Interrupt_Enable(void);
 
 void Timer0_Set_OCR0(uint8 value);
+
+void SetCallBack(void(*CallFunction_Ptr)(void));
 
 #endif /* TIMER_H_ */
